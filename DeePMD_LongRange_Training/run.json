@@ -58,20 +58,15 @@
         "save_freq":         5000,
 	"training_data": {
 	    "systems":		 [
-			"/home/pengchao/glycine/dataset/KS_M062X/water/dp_dataset_scf_1e-6_oil/58h2o/concat_train",
-			"/home/pengchao/glycine/dataset/KS_M062X/water/cp2k/dp_dataset_dpwc/025_train",
-			
-			"/home/pengchao/glycine/dataset/KS_M062X/water/dp_dataset_scf_1e-6_oil/64h2o/concat_train",
-			"/home/pengchao/glycine/dataset/KS_M062X/water/cp2k/dp_dataset_dpwc/scan_axel_train",
-						
-			"/home/pengchao/glycine/dataset/KS_M062X/glycine/dp_dataset_scf_1e-6/concat_train",
-			
-			"/home/pengchao/glycine/dataset/KS_M062X/glycine_slab/dp_dataset_dpwc/concat_train",
-			
-			"/home/pengchao/glycine/dataset/KS_M062X/waterslab/dp_dataset_newmap_cvs_1e-7/concat_train",
-			
-			"/home/pengchao/glycine/dataset/dplr_dataset/train/58h2o_efield",						
-			"/home/pengchao/glycine/dataset/dpwc_dataset_rev_loc/train/glycine_efield"
+            "/your_path/dplr_dataset/train/58h2o_024",
+            "/your_path/dplr_dataset/train/58h2o_025",
+            "/your_path/dplr_dataset/train/58h2o_efield",
+            "/your_path/dplr_dataset/train/64h2o_axel",
+            "/your_path/dplr_dataset/train/64h2o_npt",
+            "/your_path/dplr_dataset/train/glycine",
+            "/your_path/dplr_dataset/train/glycine_efield",
+            "/your_path/dplr_dataset/train/glycine_slab",
+            "/your_path/dplr_dataset/train/water_slab"
 			
 		],
 	    "batch_size":	"auto",
