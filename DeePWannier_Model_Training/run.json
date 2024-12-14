@@ -58,13 +58,13 @@
         "profiling_file":    "timeline.json",
 	"training_data": {
 	    "systems":		 [
-			"/home/pengchao/glycine/dataset/dpwc_dataset_rev_loc/train/58h2o_025",
-			"/home/pengchao/glycine/dataset/dpwc_dataset_rev_loc/train/64h2o_axel",			
-			"/home/pengchao/glycine/dataset/dpwc_dataset_rev_loc/train/water_slab",
-			"/home/pengchao/glycine/dataset/dpwc_dataset_rev_loc/train/glycine_slab",
-			"/home/pengchao/glycine/dataset/dpwc_dataset_rev_loc/train/glycine",
-			"/home/pengchao/glycine/dataset/dpwc_dataset_rev_loc/train/58h2o_efield",			
-			"/home/pengchao/glycine/dataset/dpwc_dataset_rev_loc/train/glycine_efield"
+			"/your_path/dpwc_dataset/train/58h2o_025",
+			"/your_path/dpwc_dataset/train/64h2o_axel",			
+			"/your_path/dpwc_dataset/train/water_slab",
+			"/your_path/dpwc_dataset/train/glycine_slab",
+			"/your_path/dpwc_dataset/train/glycine",
+			"/your_path/dpwc_dataset/train/58h2o_efield",			
+			"/your_path/dpwc_dataset/train/glycine_efield"
 			
 		],
 	    "batch_size":	"auto",
